@@ -6,9 +6,9 @@ const Main = ({id, image, name,email, age}) => {
     <div className="main">
       <img src={image} alt="img" className="main-img" />
       <div className="main-info">
-        <h4 className="name">{name}</h4>
+        <h3 className="name">{name}</h3>
         <p className="email">{email}</p>
-        <p className="age">{age} years old</p>
+        <p className="age"><b>Age :</b> {age}</p>
       </div>
     </div>
   );
