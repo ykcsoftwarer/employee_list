@@ -1,7 +1,7 @@
 import React from "react";
 import "./Main.css";
 
-const Main = () => {
+const Main = ({id, image, name,email, age}) => {
   return (
     <div className="main">
       <img src={image} alt="img" className="main-img" />
