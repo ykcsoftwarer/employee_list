@@ -105,6 +105,13 @@ const data = [
       email: 'jacob.neal@example.com',
     },
     {
+      id: 'SC 18 90 45 h',
+      name: 'Curtis Gibson',
+      age: 28,
+      image: 'https://randomuser.me/api/portraits/men/55.jpg',
+      email: 'curtis.gibson@example.com',
+    },
+    {
       id: 'drskm',
       name: 'درسا كامياران',
       age: 27,
@@ -146,13 +153,7 @@ const data = [
       image: 'https://randomuser.me/api/portraits/men/55.jpg',
       email: 'curtis.gibson@example.com',
     },
-    {
-      id: 'SC 18 90 45 h',
-      name: 'Curtis Gibson',
-      age: 28,
-      image: 'https://randomuser.me/api/portraits/men/55.jpg',
-      email: 'curtis.gibson@example.com',
-    } 
+   
   ];
   
   export default data;

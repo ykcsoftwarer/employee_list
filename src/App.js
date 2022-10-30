@@ -37,8 +37,8 @@ function App() {
 
       <Header from={indexOffFirstUser + 1} to={indexOffFirstUser + currentUsers.length} />
       {currentUsers.map((item) => <Main key={item.id}{...item} /> )} 
-      {/* <Button total={(data.length / userPerPage)} /> */}
-      <Button total={setPage} />
+      <Button total={Math.ceil(data.length / userPerPage)} page={page} setPage={setPage} />
+     
     </div>
   );
 }
