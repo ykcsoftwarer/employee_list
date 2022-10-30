@@ -1,11 +1,11 @@
 import React from 'react'
 import './Header.css';
 
-const Header = () => {
+const Header = ({from, to}) => {
   return (
     <div className='header' >
         <h1 className="header-h1">EMPLOYEE LISTS</h1>
-        <h4 className="header-h4">{'Employes to'}</h4>
+        <h4 className="header-h4">(Employes {from} to {to})</h4>
     </div>
   )
 }
